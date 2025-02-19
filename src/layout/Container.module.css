@@ -1,0 +1,16 @@
+.container{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.minHeight{
+    min-height: 75vh;
+}
+
+.start{
+    justify-content: flex-start;
+}
+.column{
+    flex-direction: column;
+    justify-content: flex-start;
+}

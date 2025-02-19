@@ -1,42 +1,24 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import Products from './components/Products';
-import Banner from './components/Banner';
-import Ratings from './components/Ratings';
-import About from './components/About';
-import Footer from './components/Footer';
+import Container from './layout/Container';
+import Booking from './pages/BookingPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Content from './layout/Content';
 function App() {
   return (
-    <div className="App">
+    <Router>
       <header className="App-header">
         <Navbar />
       </header>
-      <main>
-        <section>
-          <div>
-            <Banner />
-          </div>
-        </section>
-        <section>
-          <div>
-            <Products />
-          </div>
-        </section>
-        <section>
-          <div>
-            <Ratings />
-          </div>
-        </section>
-        <section>
-          <div>
-          <About/>
-          </div>
-        </section>
-      </main>
-      <footer>
-       <Footer/>
-      </footer>
-    </div>
+
+      <Container customClass="minHeight">
+        <Routes>
+          <Route exact path="/" element={<Content />} />
+          <Route exact path="/booking" element={<Booking />} />
+        </Routes>
+      </Container>
+    </Router>
+
   );
 }
 

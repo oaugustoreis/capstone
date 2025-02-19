@@ -1,10 +1,9 @@
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: start;
     flex-direction: column;
     padding: 1rem;
-    background-color: white;
+    height: 15rem;
+    color: aliceblue;
+    background-color:#495e57;
     
 }
 .card div {
@@ -20,8 +19,8 @@
 }
 
 .container {
-    background-color:#495e57;
     display: flex;
+    background-color: white;
     justify-content: center;
     align-items: center;
     gap: 2rem;

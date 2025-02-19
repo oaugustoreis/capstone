@@ -13,7 +13,8 @@
 
 .container p {
     color: #495e57;
-    max-width: 30vw;
+    max-width: 60vw;
+    text-align: justify;
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
@@ -22,4 +23,11 @@
     width: 14rem;
     height: auto;
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container p {
+        max-width: 80vw;
+    }
+    
 }
