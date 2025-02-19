@@ -1,0 +1,8 @@
+.stars{
+    display: flex;
+}
+.starContainer{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+}

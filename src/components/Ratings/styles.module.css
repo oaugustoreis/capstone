@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+    
+}
+.card div {
+    display: flex; 
+    width: 100%;
+    
+}
+.card p {
+    text-align: justify;
+    max-width: 19rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.container {
+    background-color:#495e57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+}

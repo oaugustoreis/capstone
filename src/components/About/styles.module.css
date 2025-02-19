@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    color: #f4ce14;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container p {
+    color: #495e57;
+    max-width: 30vw;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.container img {
+    margin-top: 10px;
+    width: 14rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
